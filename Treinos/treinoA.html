@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino</title>
+    <style>
+        /* Estilização dos título */
+
+
+        h1 {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 80px;
+            color: orangered;
+            text-align: center;
+        }
+
+        /* Estilização do parágrafo */
+
+
+        p {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: black;
+            font-size: 20px;
+            background-color: yellow;
+            border: 3px solid orangered;
+            width: 700px;
+            padding: 50px;
+            text-align: justify;
+            margin: auto;
+
+        }
+
+        /* Estilização do menu */
+
+
+        .menu {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: yellow;
+            border: 3px solid orangered;
+            width: 700px;
+            padding: 50px;
+            text-align: center;
+            margin: auto;
+        }
+
+        /* Estilização dos links */
+
+
+        a:link {
+            color: purple;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px;
+        }
+
+        a:hover {
+            color: orangered;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Contéudo principal -->
+
+    <div>
+        <h1>Peito e Tríceps</h1>
+
+        <p>
+            <input type="checkbox" name="Treino" value="Aquecimento">
+            <strong>Aquecimento </strong> 5-10 minutos de esteira ou bicicleta. <br>
+            <br>
+        </p>
+        <p>
+            <strong>Treino de Peito:</strong> <br>
+            <input type="checkbox" name="Treino[]" value="Supino Reto">
+            Supino reto (halteres ou barra): 4x10-12. <br>
+            <input type="checkbox" name="Treino[]" value="Supino Inclinado">
+            Supino inclinado (halteres ou barra): 3x10-12. <br>
+            <input type="checkbox" name="Treino[]" value="Cruxifixo">
+            Crucifixo (halteres ou máquina): 3x12-15. <br>
+            <br>
+        </p>
+        <p>
+            <strong>Treino de Tríceps:</strong> <br>
+            <input type="checkbox" name="Treino[]" value="Tríceps na Polia">
+            Tríceps na polia (cabo): 4x12-15. <br>
+            <input type="checkbox" name="Treino[]" value="Tríceps Francês">
+            Tríceps francês (halteres): 3x10-12. <br>
+            <input type="checkbox" name="Treino[]" value="Mergulho em Paralelas">
+            Mergulho em paralelas (ou banco): 3x10-15. <br>
+            <br>
+        <p>
+            <input type="checkbox" name="Treino[]" value="Cardio">
+            <strong>Cardio:</strong> 15-20 minutos de corrida leve
+        </p>
+
+    </div>
+
+    <!-- Esta é a seção do menu -->
+
+    <div class="menu">
+        <a href="index.html">Voltar ao Menu</a>
+
+    </div>
+
+</body>
+
+</html>
